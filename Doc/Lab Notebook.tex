@@ -1,0 +1,39 @@
+\documentclass{journal}
+
+\usepackage[super, sort]{natbib}
+  \bibpunct{(}{)}{;}{a}{,}{,} % required for natbib  
+\bibliographystyle{authordate2}
+
+
+\title{Lab Notebook}
+\author{Brooke Bothwell}
+\date{April 28, 2015}
+\begin{document}
+	\maketitle 
+	\section*{Tuesday, April 28, 2015}
+Today I am starting my lab notebook. As well as attempting to work with the Latex software and Github. However, it is proving difficult. I am not exactly sure how to push my data to the github cite, or pull from the github cite. My meeting is tomorrow at 11:00 and the only thing I am going to have to show for it is this entry in this lab notebook. I have been looking at forums only and trying to figure out how to push/pull with github from the command line however I am still having difficulties.
+		\paragraph{Latex and Github}
+Writing in these is not that difficult, however I am having a problem pushing and pulling. (Thinking about creating my own private journal using this for practice, could be easy to organize and would say on money and the environment).	
+
+\section*{Wednesday, April 29, 2015}
+Meeting with Dr. Borrett today going over Github and Latex software and how to use it with the DIS. Very productive meeting. Actually learned a lot about how to work with the software and how to use it not just within the DIS program. This is awesome.
+\paragraph{Working with equations and testing citations}
+
+We are testing the citation out.  Here is a indirect effects paper \citep{patten1995}.
+
+Opps, I forgot to insert an equation
+\begin{equation}
+E = mc^2
+\end{equation}
+
+
+Lets write an equation.
+\begin{equation}
+y = mx + b  \label{eq:line}
+\end{equation}
+\paragraph{Rstudio} The next step is to introduce the actual Network software into the Rstudio system on my computer and I will have the whole lab on my computer! Yay!
+
+Now I can reference my equation directly by saying see equation~\ref{eq:line}
+\bibliography{temp}
+
+\end{document}
